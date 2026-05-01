@@ -1,0 +1,633 @@
+
+    
+    
+    <style {% if section.settings.section_preload == "false" %} class="gps-link gps-style" type="text/disabled-css" {% endif %}>.gps-502691833529238472.gps.gpsil [style*="--ai:"]{align-items:var(--ai)}.gps-502691833529238472.gps.gpsil [style*="--bg:"]{background:var(--bg)}.gps-502691833529238472.gps.gpsil [style*="--bga:"]{background-attachment:var(--bga)}.gps-502691833529238472.gps.gpsil [style*="--bgc:"]{background-color:var(--bgc)}.gps-502691833529238472.gps.gpsil [style*="--bgi:"]{background-image:var(--bgi)}.gps-502691833529238472.gps.gpsil [style*="--bgp:"]{background-position:var(--bgp)}.gps-502691833529238472.gps.gpsil [style*="--bgr:"]{background-repeat:var(--bgr)}.gps-502691833529238472.gps.gpsil [style*="--bgs:"]{background-size:var(--bgs)}.gps-502691833529238472.gps.gpsil [style*="--b:"]{border:var(--b)}.gps-502691833529238472.gps.gpsil [style*="--bc:"]{border-color:var(--bc)}.gps-502691833529238472.gps.gpsil [style*="--radius:"]{border-radius:var(--radius)}.gps-502691833529238472.gps.gpsil [style*="--bs:"]{border-style:var(--bs)}.gps-502691833529238472.gps.gpsil [style*="--bw:"]{border-width:var(--bw)}.gps-502691833529238472.gps.gpsil [style*="--shadow:"]{box-shadow:var(--shadow)}.gps-502691833529238472.gps.gpsil [style*="--c:"]{color:var(--c)}.gps-502691833529238472.gps.gpsil [style*="--cg:"]{-moz-column-gap:var(--cg);column-gap:var(--cg)}.gps-502691833529238472.gps.gpsil [style*="--fd:"]{flex-direction:var(--fd)}.gps-502691833529238472.gps.gpsil [style*="--ff:"]{font-family:var(--ff)}.gps-502691833529238472.gps.gpsil [style*="--size:"]{font-size:var(--size)}.gps-502691833529238472.gps.gpsil [style*="--weight:"]{font-weight:var(--weight)}.gps-502691833529238472.gps.gpsil [style*="--fs:"]{font-style:var(--fs)}.gps-502691833529238472.gps.gpsil [style*="--gg:"]{grid-gap:var(--gg)}.gps-502691833529238472.gps.gpsil [style*="--gtc:"]{grid-template-columns:var(--gtc)}.gps-502691833529238472.gps.gpsil [style*="--jc:"]{justify-content:var(--jc)}.gps-502691833529238472.gps.gpsil [style*="--tdt:"]{text-decoration-thickness:var(--tdt)}.gps-502691833529238472.gps.gpsil [style*="--tdl:"]{text-decoration-line:var(--tdl)}.gps-502691833529238472.gps.gpsil [style*="--m:"]{margin:var(--m)}.gps-502691833529238472.gps.gpsil [style*="--mb:"]{margin-bottom:var(--mb)}.gps-502691833529238472.gps.gpsil [style*="--op:"]{opacity:var(--op)}.gps-502691833529238472.gps.gpsil [style*="--o:"]{order:var(--o)}.gps-502691833529238472.gps.gpsil [style*="--pc:"]{place-content:var(--pc)}.gps-502691833529238472.gps.gpsil [style*="--p:"]{padding:var(--p)}.gps-502691833529238472.gps.gpsil [style*="--pb:"]{padding-bottom:var(--pb)}.gps-502691833529238472.gps.gpsil [style*="--pl:"]{padding-left:var(--pl)}.gps-502691833529238472.gps.gpsil [style*="--pr:"]{padding-right:var(--pr)}.gps-502691833529238472.gps.gpsil [style*="--pt:"]{padding-top:var(--pt)}.gps-502691833529238472.gps.gpsil [style*="--ta:"]{text-align:var(--ta)}.gps-502691833529238472.gps.gpsil [style*="--t:"]{transform:var(--t)}.gps-502691833529238472.gps.gpsil [style*="--w:"]{width:var(--w)}.gps-502691833529238472.gps.gpsil [style*="--line-clamp:"]{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:var(--line-clamp)}@media only screen and (max-width:1024px){.gps-502691833529238472.gps.gpsil [style*="--size-tablet:"]{font-size:var(--size-tablet)}.gps-502691833529238472.gps.gpsil [style*="--pb-tablet:"]{padding-bottom:var(--pb-tablet)}.gps-502691833529238472.gps.gpsil [style*="--pl-tablet:"]{padding-left:var(--pl-tablet)}.gps-502691833529238472.gps.gpsil [style*="--pr-tablet:"]{padding-right:var(--pr-tablet)}.gps-502691833529238472.gps.gpsil [style*="--pt-tablet:"]{padding-top:var(--pt-tablet)}.gps-502691833529238472.gps.gpsil [style*="--w-tablet:"]{width:var(--w-tablet)}.gps-502691833529238472.gps.gpsil [style*="--line-clamp-tablet:"]{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:var(--line-clamp-tablet)}}@media only screen and (max-width:767px){.gps-502691833529238472.gps.gpsil [style*="--size-mobile:"]{font-size:var(--size-mobile)}.gps-502691833529238472.gps.gpsil [style*="--mb-mobile:"]{margin-bottom:var(--mb-mobile)}.gps-502691833529238472.gps.gpsil [style*="--pb-mobile:"]{padding-bottom:var(--pb-mobile)}.gps-502691833529238472.gps.gpsil [style*="--pl-mobile:"]{padding-left:var(--pl-mobile)}.gps-502691833529238472.gps.gpsil [style*="--pr-mobile:"]{padding-right:var(--pr-mobile)}.gps-502691833529238472.gps.gpsil [style*="--pt-mobile:"]{padding-top:var(--pt-mobile)}.gps-502691833529238472.gps.gpsil [style*="--w-mobile:"]{width:var(--w-mobile)}.gps-502691833529238472.gps.gpsil [style*="--line-clamp-mobile:"]{display:-webkit-box;overflow:hidden;-webkit-box-orient:vertical;-webkit-line-clamp:var(--line-clamp-mobile)}}.gps-502691833529238472 .-gp-rotate-90,.gps-502691833529238472 .gp-rotate-180,.gps-502691833529238472 .gp-rotate-90{--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1}.gps-502691833529238472 .gp-relative{position:relative}.gps-502691833529238472 .gp-mx-auto{margin-left:auto;margin-right:auto}.gps-502691833529238472 .gp-mb-0{margin-bottom:0}.gps-502691833529238472 .gp-flex{display:flex}.gps-502691833529238472 .gp-inline-flex{display:inline-flex}.gps-502691833529238472 .gp-grid{display:grid}.gps-502691833529238472 .\!gp-hidden{display:none!important}.gps-502691833529238472 .gp-hidden{display:none}.gps-502691833529238472 .gp-min-h-0{min-height:0}.gps-502691833529238472 .gp-w-full{width:100%}.gps-502691833529238472 .gp-max-w-full{max-width:100%}.gps-502691833529238472 .-gp-rotate-90{--tw-rotate:-90deg}.gps-502691833529238472 .-gp-rotate-90,.gps-502691833529238472 .gp-rotate-180{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.gps-502691833529238472 .gp-rotate-180{--tw-rotate:180deg}.gps-502691833529238472 .gp-rotate-90{--tw-rotate:90deg;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.gps-502691833529238472 .gp-cursor-pointer{cursor:pointer}.gps-502691833529238472 .gp-grid-rows-\[0fr\]{grid-template-rows:0fr}.gps-502691833529238472 .gp-grid-rows-\[1fr\]{grid-template-rows:1fr}.gps-502691833529238472 .gp-flex-col{flex-direction:column}.gps-502691833529238472 .gp-items-center{align-items:center}.gps-502691833529238472 .gp-justify-center{justify-content:center}.gps-502691833529238472 .gp-gap-\[16px\]{gap:16px}.gps-502691833529238472 .gp-overflow-hidden{overflow:hidden}.gps-502691833529238472 .gp-overflow-clip{overflow:clip}.gps-502691833529238472 .gp-break-all{word-break:break-all}.gps-502691833529238472 .gp-text-g-bg-3{color:var(--g-c-bg-3)}.gps-502691833529238472 .gp-transition-all{transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-502691833529238472 .gp-transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-502691833529238472 .gp-duration-200{transition-duration:.2s}.gps-502691833529238472 .gp-duration-500{transition-duration:.5s}.gps-502691833529238472 .gp-ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}@media (hover:hover) and (pointer:fine){.gps-502691833529238472 .gp-group:hover .group-hover\:\[color\:var\(--icon-expand-hover-color\)\]{color:var(--icon-expand-hover-color)}.gps-502691833529238472 .gp-group:hover .group-hover\:\[color\:var\(--text-hover-color\)\!important\]{color:var(--text-hover-color)!important}}@media (max-width:1024px){.gps-502691833529238472 .tablet\:\!gp-hidden{display:none!important}.gps-502691833529238472 .tablet\:gp-hidden{display:none}}@media (max-width:767px){.gps-502691833529238472 .mobile\:\!gp-hidden{display:none!important}.gps-502691833529238472 .mobile\:gp-hidden{display:none}}.gps-502691833529238472 .\[\&\>svg\]\:\!gp-h-\[var\(--height-iconCollapseSize\)\]>svg{height:var(--height-iconCollapseSize)!important}.gps-502691833529238472 .\[\&\>svg\]\:\!gp-w-full>svg{width:100%!important}.gps-502691833529238472 .\[\&_\*\]\:gp-max-w-full *{max-width:100%}</style>
+    <style {% if section.settings.section_preload == "false" %} class="gps-link" type="text/disabled-css" {% endif %}>@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FN_C-b8&skey=c397ded15edc0853&v=v20) format('woff');
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4jE9_C-b8&skey=c397ded15edc0853&v=v20) format('woff');
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE9_C-b8&skey=c397ded15edc0853&v=v20) format('woff');
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggqxSvfedN62Zw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggOxSvfedN62Zw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggSxSvfedN62Zw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggixSvfedN62Zw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggmxSvfedN62Zw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSvfedN4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggqxSvfedN62Zw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggOxSvfedN62Zw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggSxSvfedN62Zw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggixSvfedN62Zw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggmxSvfedN62Zw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSvfedN4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggqxSvfedN62Zw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggOxSvfedN62Zw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggSxSvfedN62Zw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggixSvfedN62Zw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggmxSvfedN62Zw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSvfedN4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+  
+    
+    
+    
+
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+
+    
+        <section
+          class="gp-mx-auto gp-max-w-full [&_*]:gp-max-w-full {% if section.settings.section_preload == "false" %}gps-lazy {% endif %}"
+          style="--w:calc(var(--g-ct-w, 1200px) + 2 * var(--g-ct-p, 15px));--w-tablet:calc(var(--g-ct-w, 100%) + 2 * var(--g-ct-p, 15px));--w-mobile:calc(var(--g-ct-w, 100%) + 2 * var(--g-ct-p, 15px))"
+        >
+          
+    <gp-row gp-data='{"background":{"desktop":{"attachment":"scroll","color":"#FFFFFF","image":{"height":0,"src":"","width":0},"position":{"x":50,"y":50},"repeat":"no-repeat","size":"cover","type":"color"}},"uid":"gHC4m5PlTW"}' data-id="gHC4m5PlTW" id="gHC4m5PlTW" data-same-height-subgrid-container class="gHC4m5PlTW gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:72px;--pl:15px;--pb:72px;--pr:15px;--pt-tablet:63px;--pl-tablet:15px;--pb-tablet:63px;--pr-tablet:15px;--cg:var(--g-s-2xl);--gtc:minmax(0, 12fr);--bgc:#FFFFFF;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:start"
+      class="gLrOVx-nDR gp-relative gp-flex gp-flex-col"
+    >
+      
+    
+
+    
+
+    
+    <gp-row gp-data='{"background":{"desktop":{"attachment":"scroll","color":"transparent","image":{"height":0,"src":"","width":0},"position":{"x":50,"y":50},"repeat":"no-repeat","size":"cover","type":"color"}},"uid":"gqSOIrSRou"}' data-id="gqSOIrSRou" id="gqSOIrSRou" data-same-height-subgrid-container class="gqSOIrSRou gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(undefined);--cg:var(--g-s-2xl);--gtc:minmax(0, 12fr);--w:800px;--w-tablet:800px;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--pc:start">
+      
+
+      <div
+      data-same-height-display-contents
+      style="--jc:start"
+      class="gJ6rd3ekCV gp-relative gp-flex gp-flex-col"
+    >
+      
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gE-RlS71fZ"
+        class="gE-RlS71fZ"
+        style="--ta:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:56px;--mb-mobile:49px;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:center">
+        <h2
+          data-gp-text
+          class="gp-text-g-bg-3 gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--ta:center;--c:#242424;--fs:normal;--ff:var(--g-font-Manrope, 'Manrope'), var(--g-font-heading, heading);--weight:600;--size:51px;--size-tablet:51px;--size-mobile:44px;word-break:break-word;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggE-RlS71fZ_text | replace: '$locationOrigin', locationOrigin }}
+        </h2>
+      </div>
+    </div>
+    <div gp-el-wrapper style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(undefined)" class="gY8NkUsNXQ ">
+      
+    <gp-accordion data-id="gY8NkUsNXQ" class="gp-flex gp-flex-col gp-w-full" style="--gg:var(--g-s-l);border-radius:inherit"
+      gp-data='{"uid":"gY8NkUsNXQ","setting":{"iconSvg":"<svg width=\"17\" height=\"16\" viewBox=\"0 0 17 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                  <path d=\"M5.64645 2.64645C5.84171 2.45118 6.15829 2.45118 6.35355 2.64645L11.3536 7.64645C11.5488 7.84171 11.5488 8.15829 11.3536 8.35355L6.35355 13.3536C6.15829 13.5488 5.84171 13.5488 5.64645 13.3536C5.45118 13.1583 5.45118 12.8417 5.64645 12.6464L10.2929 8L5.64645 3.35355C5.45118 3.15829 5.45118 2.84171 5.64645 2.64645Z\" fill=\"currentColor\"/>\n                  </svg>","isIconPlus":false,"activeKey":1,"expanded":false,"expandItem":false,"iconPosition":"right","iconGlobalSize":{"desktop":{"gap":"16px","height":"16px","width":"16px"}},"layoutHeader":"text-only","expandedMode":"single","configIconSize":16,"parentUid":"gY8NkUsNXQ","childListNumber":[],"chidlrenUid":["gT4yl4qkVh","gvVaeagnTr","gUaLbD4HNH","gw-CMymCYN","gsLWji1qwm"]},"styles":{"bgColor":{"normal":"transparent"},"color":{"normal":"#242424"},"headerBorder":{"normal":{"border":"none","borderLabel":"None","borderType":"none","color":"transparent","isCustom":false,"width":"0px 0px 0px 0px"}},"fullWidth":{"desktop":true},"width":{"desktop":"1170px"},"itemHeaderSpacing":{"custom":{"desktop":{"horizontal":"16px","vertical":"16px"}}},"textColor":{"normal":"#242424"},"iconColor":{"active":"#121212","hover":"#121212","normal":"#121212"},"contentSizePadding":{"desktop":{"gap":"var(--g-s-l)","padding":{"bottom":"0px","left":"16px","right":"16px","top":"0px","type":"custom"}},"mobile":{"padding":{"bottom":"0px","left":"16px","right":"16px","top":"0px","type":"custom"}},"tablet":{"padding":{"bottom":"0px","left":"16px","right":"16px","top":"0px","type":"custom"}}},"headerContentPadding":{"desktop":{"padding":{"bottom":"16px","left":"16px","right":"16px","top":"16px","type":"custom"}},"mobile":{"padding":{"bottom":"16px","left":"16px","right":"16px","top":"16px","type":"custom"}},"tablet":{"padding":{"bottom":"16px","left":"16px","right":"16px","top":"16px","type":"custom"}}},"widthHeightSize":{"desktop":{"width":"100%"},"mobile":{"width":"100%"},"tablet":{"width":"100%"}}}}'
+        >
+        <div class=" gp-hidden gp-rotate-90 -gp-rotate-90 gp-rotate-180"></div>
+      
+          <div class="gp-flex" style="--jc:left">
+            
+  <div class="gp-overflow-clip gp-group" style="--text-hover-color:#242424;--icon-expand-hover-color:#242424;--icon-expand-active-color:#242424;--icon-active-color:#121212;--icon-hover-color:#121212;--w:100%;--w-tablet:100%;--w-mobile:100%;--bs:solid;--bw:1px 1px 1px 1px;--bc:#E0E0E0">
+    <div data-index="0" class="gY8NkUsNXQ gp-overflow-hidden gp-child-item-gY8NkUsNXQ gp-accordion-item">
+      <div aria-hidden uid="gT4yl4qkVh" id="gT4yl4qkVh" data-index="0"
+        class="gp-flex gp-accordion-item_header gp-cursor-pointer gp-items-center gp-gap-[16px] gY8NkUsNXQ gp-accordion-item-gY8NkUsNXQ-0" style="--pl:16px;--pr:16px;--pt:16px;--pb:16px;--pl-tablet:16px;--pr-tablet:16px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:16px;--pr-mobile:16px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;--bgc:transparent;--bs:none;--bw:0px 0px 0px 0px;--bc:transparent">
+        
+          <div class="gp-inline-flex">
+            <span style="--c:#242424;width:16px;height:16px"
+            data-index="0"
+            class="gp-rotate-90 group-hover:[color:var(--icon-expand-hover-color)] gp-collapsible-icon gp-accordion-item_icon gp-inline-flex gp-items-center gp-justify-center gp-overflow-hidden gp-transition-all gp-duration-200 [&>svg]:!gp-h-[var(--height-iconCollapseSize)] [&>svg]:!gp-w-full">
+              <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.64645 2.64645C5.84171 2.45118 6.15829 2.45118 6.35355 2.64645L11.3536 7.64645C11.5488 7.84171 11.5488 8.15829 11.3536 8.35355L6.35355 13.3536C6.15829 13.5488 5.84171 13.5488 5.64645 13.3536C5.45118 13.1583 5.45118 12.8417 5.64645 12.6464L10.2929 8L5.64645 3.35355C5.45118 3.15829 5.45118 2.84171 5.64645 2.64645Z" fill="currentColor"/>
+                  </svg>
+            </span>
+          </div>
+          
+        <div class="gp-flex gp-w-full gp-items-center gp-break-all" style="--gg:16px">
+          
+          
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id
+        
+        style="--c:#242424;--dynamic-source-color:#F4F4F4"
+      >
+      <div  >
+        <div
+          data-gp-text
+          class="gp-overflow-hidden gp-accordion-text-content group-hover:[color:var(--text-hover-color)!important]  gp-text-instant"
+          style="--w:100%;--tdt:auto;--fs:normal;--ff:var(--g-font-Manrope, 'Manrope'), var(--g-font-heading, heading);--weight:600;--size:21px;--size-tablet:21px;--size-mobile:19px;word-break:break-word;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggY8NkUsNXQ_childItem_0 }}
+        </div>
+      </div>
+    </div>
+    
+          
+        </div>
+      </div>
+      <div data-index="0" data-show="false" class="gp-accordion-item_body gp-transition-all gp-grid gp-duration-500 gp-overflow-hidden gp-grid-rows-[0fr]" style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)">
+        <div data-index="0" class="gp-accordion-item_body-inner gp-transition-all gp-duration-500 gp-min-h-0" style="--pl:16px;--pr:16px;--pl-tablet:16px;--pr-tablet:16px;--pl-mobile:16px;--pr-mobile:16px">
+          <div
+      data-same-height-display-contents
+      
+      class="gMRpgHm7JW gp-relative gp-flex gp-flex-col"
+    >
+      
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gO65cuv1w-"
+        class="gO65cuv1w-"
+        style="--ta:left;--b:solid;--bc:#E0E0E0;--bw:1px 0px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-l);--pt:var(--g-s-l);--pl:auto;--pb:auto;--pr:auto;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-Manrope, 'Manrope'), var(--g-font-body, body);--weight:400;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggO65cuv1w-_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+          </div>
+            
+          <div class="gp-flex" style="--jc:left">
+            
+  <div class="gp-overflow-clip gp-group" style="--text-hover-color:#242424;--icon-expand-hover-color:#242424;--icon-expand-active-color:#242424;--icon-active-color:#121212;--icon-hover-color:#121212;--w:100%;--w-tablet:100%;--w-mobile:100%;--bs:solid;--bw:1px 1px 1px 1px;--bc:#E0E0E0">
+    <div data-index="1" class="gY8NkUsNXQ gp-overflow-hidden gp-child-item-gY8NkUsNXQ gp-accordion-item">
+      <div aria-hidden uid="gvVaeagnTr" id="gvVaeagnTr" data-index="1"
+        class="gp-flex gp-accordion-item_header gp-cursor-pointer gp-items-center gp-gap-[16px] gY8NkUsNXQ gp-accordion-item-gY8NkUsNXQ-1" style="--pl:16px;--pr:16px;--pt:16px;--pb:16px;--pl-tablet:16px;--pr-tablet:16px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:16px;--pr-mobile:16px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;--bgc:transparent;--bs:none;--bw:0px 0px 0px 0px;--bc:transparent">
+        
+          <div class="gp-inline-flex">
+            <span style="--c:#242424;width:16px;height:16px"
+            data-index="1"
+            class="gp-rotate-90 group-hover:[color:var(--icon-expand-hover-color)] gp-collapsible-icon gp-accordion-item_icon gp-inline-flex gp-items-center gp-justify-center gp-overflow-hidden gp-transition-all gp-duration-200 [&>svg]:!gp-h-[var(--height-iconCollapseSize)] [&>svg]:!gp-w-full">
+              <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.64645 2.64645C5.84171 2.45118 6.15829 2.45118 6.35355 2.64645L11.3536 7.64645C11.5488 7.84171 11.5488 8.15829 11.3536 8.35355L6.35355 13.3536C6.15829 13.5488 5.84171 13.5488 5.64645 13.3536C5.45118 13.1583 5.45118 12.8417 5.64645 12.6464L10.2929 8L5.64645 3.35355C5.45118 3.15829 5.45118 2.84171 5.64645 2.64645Z" fill="currentColor"/>
+                  </svg>
+            </span>
+          </div>
+          
+        <div class="gp-flex gp-w-full gp-items-center gp-break-all" style="--gg:16px">
+          
+          
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id
+        
+        style="--c:#242424;--dynamic-source-color:#F4F4F4"
+      >
+      <div  >
+        <div
+          data-gp-text
+          class="gp-overflow-hidden gp-accordion-text-content group-hover:[color:var(--text-hover-color)!important]  gp-text-instant"
+          style="--w:100%;--tdt:auto;--fs:normal;--ff:var(--g-font-Manrope, 'Manrope'), var(--g-font-heading, heading);--weight:600;--size:21px;--size-tablet:21px;--size-mobile:19px;word-break:break-word;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggY8NkUsNXQ_childItem_1 }}
+        </div>
+      </div>
+    </div>
+    
+          
+        </div>
+      </div>
+      <div data-index="1" data-show="false" class="gp-accordion-item_body gp-transition-all gp-grid gp-duration-500 gp-overflow-hidden gp-grid-rows-[0fr]" style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)">
+        <div data-index="1" class="gp-accordion-item_body-inner gp-transition-all gp-duration-500 gp-min-h-0" style="--pl:16px;--pr:16px;--pl-tablet:16px;--pr-tablet:16px;--pl-mobile:16px;--pr-mobile:16px">
+          <div
+      data-same-height-display-contents
+      
+      class="gGz_lSjWB8 gp-relative gp-flex gp-flex-col"
+    >
+      
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gEuvCajkNw"
+        class="gEuvCajkNw"
+        style="--ta:left;--b:solid;--bc:#E0E0E0;--bw:1px 0px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-l);--pt:var(--g-s-l);--pl:auto;--pb:auto;--pr:auto;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-Manrope, 'Manrope'), var(--g-font-body, body);--weight:400;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggEuvCajkNw_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+          </div>
+            
+          <div class="gp-flex" style="--jc:left">
+            
+  <div class="gp-overflow-clip gp-group" style="--text-hover-color:#242424;--icon-expand-hover-color:#242424;--icon-expand-active-color:#242424;--icon-active-color:#121212;--icon-hover-color:#121212;--w:100%;--w-tablet:100%;--w-mobile:100%;--bs:solid;--bw:1px 1px 1px 1px;--bc:#E0E0E0">
+    <div data-index="2" class="gY8NkUsNXQ gp-overflow-hidden gp-child-item-gY8NkUsNXQ gp-accordion-item">
+      <div aria-hidden uid="gUaLbD4HNH" id="gUaLbD4HNH" data-index="2"
+        class="gp-flex gp-accordion-item_header gp-cursor-pointer gp-items-center gp-gap-[16px] gY8NkUsNXQ gp-accordion-item-gY8NkUsNXQ-2" style="--pl:16px;--pr:16px;--pt:16px;--pb:16px;--pl-tablet:16px;--pr-tablet:16px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:16px;--pr-mobile:16px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;--bgc:transparent;--bs:none;--bw:0px 0px 0px 0px;--bc:transparent">
+        
+          <div class="gp-inline-flex">
+            <span style="--c:#242424;width:16px;height:16px"
+            data-index="2"
+            class="gp-rotate-90 group-hover:[color:var(--icon-expand-hover-color)] gp-collapsible-icon gp-accordion-item_icon gp-inline-flex gp-items-center gp-justify-center gp-overflow-hidden gp-transition-all gp-duration-200 [&>svg]:!gp-h-[var(--height-iconCollapseSize)] [&>svg]:!gp-w-full">
+              <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.64645 2.64645C5.84171 2.45118 6.15829 2.45118 6.35355 2.64645L11.3536 7.64645C11.5488 7.84171 11.5488 8.15829 11.3536 8.35355L6.35355 13.3536C6.15829 13.5488 5.84171 13.5488 5.64645 13.3536C5.45118 13.1583 5.45118 12.8417 5.64645 12.6464L10.2929 8L5.64645 3.35355C5.45118 3.15829 5.45118 2.84171 5.64645 2.64645Z" fill="currentColor"/>
+                  </svg>
+            </span>
+          </div>
+          
+        <div class="gp-flex gp-w-full gp-items-center gp-break-all" style="--gg:16px">
+          
+          
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id
+        
+        style="--c:#242424;--dynamic-source-color:#F4F4F4"
+      >
+      <div  >
+        <div
+          data-gp-text
+          class="gp-overflow-hidden gp-accordion-text-content group-hover:[color:var(--text-hover-color)!important]  gp-text-instant"
+          style="--w:100%;--tdt:auto;--fs:normal;--ff:var(--g-font-Manrope, 'Manrope'), var(--g-font-heading, heading);--weight:600;--size:21px;--size-tablet:21px;--size-mobile:19px;word-break:break-word;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggY8NkUsNXQ_childItem_2 }}
+        </div>
+      </div>
+    </div>
+    
+          
+        </div>
+      </div>
+      <div data-index="2" data-show="false" class="gp-accordion-item_body gp-transition-all gp-grid gp-duration-500 gp-overflow-hidden gp-grid-rows-[0fr]" style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)">
+        <div data-index="2" class="gp-accordion-item_body-inner gp-transition-all gp-duration-500 gp-min-h-0" style="--pl:16px;--pr:16px;--pl-tablet:16px;--pr-tablet:16px;--pl-mobile:16px;--pr-mobile:16px">
+          <div
+      data-same-height-display-contents
+      
+      class="gF8AVk3gb9 gp-relative gp-flex gp-flex-col"
+    >
+      
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="g2rQVB-Dg8"
+        class="g2rQVB-Dg8"
+        style="--ta:left;--b:solid;--bc:#E0E0E0;--bw:1px 0px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-l);--pt:var(--g-s-l);--pl:auto;--pb:auto;--pr:auto;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-Manrope, 'Manrope'), var(--g-font-body, body);--weight:400;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.gg2rQVB-Dg8_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+          </div>
+            
+          <div class="gp-flex" style="--jc:left">
+            
+  <div class="gp-overflow-clip gp-group" style="--text-hover-color:#242424;--icon-expand-hover-color:#242424;--icon-expand-active-color:#242424;--icon-active-color:#121212;--icon-hover-color:#121212;--w:100%;--w-tablet:100%;--w-mobile:100%;--bs:solid;--bw:1px 1px 1px 1px;--bc:#E0E0E0">
+    <div data-index="3" class="gY8NkUsNXQ gp-overflow-hidden gp-child-item-gY8NkUsNXQ gp-accordion-item">
+      <div aria-hidden uid="gw-CMymCYN" id="gw-CMymCYN" data-index="3"
+        class="gp-flex gp-accordion-item_header gp-cursor-pointer gp-items-center gp-gap-[16px] gY8NkUsNXQ gp-accordion-item-gY8NkUsNXQ-3" style="--pl:16px;--pr:16px;--pt:16px;--pb:16px;--pl-tablet:16px;--pr-tablet:16px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:16px;--pr-mobile:16px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;--bgc:transparent;--bs:none;--bw:0px 0px 0px 0px;--bc:transparent">
+        
+          <div class="gp-inline-flex">
+            <span style="--c:#242424;width:16px;height:16px"
+            data-index="3"
+            class="gp-rotate-90 group-hover:[color:var(--icon-expand-hover-color)] gp-collapsible-icon gp-accordion-item_icon gp-inline-flex gp-items-center gp-justify-center gp-overflow-hidden gp-transition-all gp-duration-200 [&>svg]:!gp-h-[var(--height-iconCollapseSize)] [&>svg]:!gp-w-full">
+              <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.64645 2.64645C5.84171 2.45118 6.15829 2.45118 6.35355 2.64645L11.3536 7.64645C11.5488 7.84171 11.5488 8.15829 11.3536 8.35355L6.35355 13.3536C6.15829 13.5488 5.84171 13.5488 5.64645 13.3536C5.45118 13.1583 5.45118 12.8417 5.64645 12.6464L10.2929 8L5.64645 3.35355C5.45118 3.15829 5.45118 2.84171 5.64645 2.64645Z" fill="currentColor"/>
+                  </svg>
+            </span>
+          </div>
+          
+        <div class="gp-flex gp-w-full gp-items-center gp-break-all" style="--gg:16px">
+          
+          
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id
+        
+        style="--c:#242424;--dynamic-source-color:#F4F4F4"
+      >
+      <div  >
+        <div
+          data-gp-text
+          class="gp-overflow-hidden gp-accordion-text-content group-hover:[color:var(--text-hover-color)!important]  gp-text-instant"
+          style="--w:100%;--tdt:auto;--fs:normal;--ff:var(--g-font-Manrope, 'Manrope'), var(--g-font-heading, heading);--weight:600;--size:21px;--size-tablet:21px;--size-mobile:19px;word-break:break-word;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggY8NkUsNXQ_childItem_3 }}
+        </div>
+      </div>
+    </div>
+    
+          
+        </div>
+      </div>
+      <div data-index="3" data-show="false" class="gp-accordion-item_body gp-transition-all gp-grid gp-duration-500 gp-overflow-hidden gp-grid-rows-[0fr]" style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)">
+        <div data-index="3" class="gp-accordion-item_body-inner gp-transition-all gp-duration-500 gp-min-h-0" style="--pl:16px;--pr:16px;--pl-tablet:16px;--pr-tablet:16px;--pl-mobile:16px;--pr-mobile:16px">
+          <div
+      data-same-height-display-contents
+      style="--ai:normal;--jc:normal;--o:0"
+      class="gpuz9YHuRP gp-relative gp-flex gp-flex-col"
+    >
+      
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="g9k220jMWN"
+        class="g9k220jMWN"
+        style="--ta:left;--b:solid;--bc:#E0E0E0;--bw:1px 0px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-l);--pt:var(--g-s-l);--pl:auto;--pb:auto;--pr:auto;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-Manrope, 'Manrope'), var(--g-font-body, body);--weight:400;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.gg9k220jMWN_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+          </div>
+            
+          <div class="gp-flex" style="--jc:left">
+            
+  <div class="gp-overflow-clip gp-group" style="--text-hover-color:#242424;--icon-expand-hover-color:#242424;--icon-expand-active-color:#242424;--icon-active-color:#121212;--icon-hover-color:#121212;--w:100%;--w-tablet:100%;--w-mobile:100%;--bs:solid;--bw:1px 1px 1px 1px;--bc:#E0E0E0">
+    <div data-index="4" class="gY8NkUsNXQ gp-overflow-hidden gp-child-item-gY8NkUsNXQ gp-accordion-item">
+      <div aria-hidden uid="gsLWji1qwm" id="gsLWji1qwm" data-index="4"
+        class="gp-flex gp-accordion-item_header gp-cursor-pointer gp-items-center gp-gap-[16px] gY8NkUsNXQ gp-accordion-item-gY8NkUsNXQ-4" style="--pl:16px;--pr:16px;--pt:16px;--pb:16px;--pl-tablet:16px;--pr-tablet:16px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:16px;--pr-mobile:16px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;--bgc:transparent;--bs:none;--bw:0px 0px 0px 0px;--bc:transparent">
+        
+          <div class="gp-inline-flex">
+            <span style="--c:#242424;width:16px;height:16px"
+            data-index="4"
+            class="gp-rotate-90 group-hover:[color:var(--icon-expand-hover-color)] gp-collapsible-icon gp-accordion-item_icon gp-inline-flex gp-items-center gp-justify-center gp-overflow-hidden gp-transition-all gp-duration-200 [&>svg]:!gp-h-[var(--height-iconCollapseSize)] [&>svg]:!gp-w-full">
+              <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.64645 2.64645C5.84171 2.45118 6.15829 2.45118 6.35355 2.64645L11.3536 7.64645C11.5488 7.84171 11.5488 8.15829 11.3536 8.35355L6.35355 13.3536C6.15829 13.5488 5.84171 13.5488 5.64645 13.3536C5.45118 13.1583 5.45118 12.8417 5.64645 12.6464L10.2929 8L5.64645 3.35355C5.45118 3.15829 5.45118 2.84171 5.64645 2.64645Z" fill="currentColor"/>
+                  </svg>
+            </span>
+          </div>
+          
+        <div class="gp-flex gp-w-full gp-items-center gp-break-all" style="--gg:16px">
+          
+          
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id
+        
+        style="--c:#242424;--dynamic-source-color:#F4F4F4"
+      >
+      <div  >
+        <div
+          data-gp-text
+          class="gp-overflow-hidden gp-accordion-text-content group-hover:[color:var(--text-hover-color)!important]  gp-text-instant"
+          style="--w:100%;--tdt:auto;--fs:normal;--ff:var(--g-font-Manrope, 'Manrope'), var(--g-font-heading, heading);--weight:600;--size:21px;--size-tablet:21px;--size-mobile:19px;word-break:break-word;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggY8NkUsNXQ_childItem_4 }}
+        </div>
+      </div>
+    </div>
+    
+          
+        </div>
+      </div>
+      <div data-index="4" data-show="false" class="gp-accordion-item_body gp-transition-all gp-grid gp-duration-500 gp-overflow-hidden gp-grid-rows-[0fr]" style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)">
+        <div data-index="4" class="gp-accordion-item_body-inner gp-transition-all gp-duration-500 gp-min-h-0" style="--pl:16px;--pr:16px;--pl-tablet:16px;--pr-tablet:16px;--pl-mobile:16px;--pr-mobile:16px">
+          <div
+      data-same-height-display-contents
+      style="--ai:normal;--jc:normal;--o:0"
+      class="gA34OCDs69 gp-relative gp-flex gp-flex-col"
+    >
+      
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gt0HjHD6i6"
+        class="gt0HjHD6i6"
+        style="--ta:left;--b:solid;--bc:#E0E0E0;--bw:1px 0px 0px 0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-l);--pt:var(--g-s-l);--pl:auto;--pb:auto;--pr:auto;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-Manrope, 'Manrope'), var(--g-font-body, body);--weight:400;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggt0HjHD6i6_text | replace: '$locationOrigin', locationOrigin }}
+        </div>
+      </div>
+    </div>
+    
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+          </div>
+            
+    </gp-accordion>
+    
+    <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-accordion-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+    
+  
+      </div>
+    </div>
+
+      
+    </gp-row>
+  
+  
+    </div>
+
+      
+    </gp-row>
+  
+        </section>
+      
+  
+    
+{% schema %}
+  {
+    
+    "name": "Section 9",
+    "tag": "section",
+    "class": "gps-502691833529238472 gps gpsil",
+    "settings": [{"type":"paragraph","content":"Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/langify-testing-prod/apps/gempages-cro/app/shopify/edit?pageType=GP_INDEX&editorId=502691831851516960&sectionId=502691833529238472)"},{"type":"select","label":"Section Preload","id":"section_preload","options":[{"label":"On","value":"true"},{"label":"Off","value":"false"},{"label":"Off Lazy Script","value":"off_lazy_script"}],"default":"false"},{"type":"text","label":"Checksum","id":"checksum"},{"type":"html","id":"ggE-RlS71fZ_text","label":"ggE-RlS71fZ_text","default":"<p>Frequently Asked Questions</p>"},{"type":"html","id":"ggY8NkUsNXQ_childItem_0","label":"ggY8NkUsNXQ_childItem_0","default":"Are the watches you sell 100% authentic?"},{"type":"html","id":"ggY8NkUsNXQ_childItem_1","label":"ggY8NkUsNXQ_childItem_1","default":"What is your return policy?"},{"type":"html","id":"ggY8NkUsNXQ_childItem_2","label":"ggY8NkUsNXQ_childItem_2","default":"Can I cancel my order?"},{"type":"html","id":"ggY8NkUsNXQ_childItem_3","label":"ggY8NkUsNXQ_childItem_3","default":"I entered the wrong shipping address. How do I update this?"},{"type":"html","id":"ggY8NkUsNXQ_childItem_4","label":"ggY8NkUsNXQ_childItem_4","default":"How long will it take to get my preorder?"},{"type":"html","id":"ggO65cuv1w-_text","label":"ggO65cuv1w-_text","default":"<p>Yes, all of our watches sold are 100% Authentic Guaranteed, brand new, unworn and come in the original manufacturer packaging</p>"},{"type":"html","id":"ggEuvCajkNw_text","label":"ggEuvCajkNw_text","default":"<p>You can return your items within 30 days of the original shipment date.&nbsp;</p><ul><li>They must be in original condition&nbsp;</li><li>For watches and straps, it must be completely unworn.&nbsp;</li><li>In the original packaging, including any plastic covers, tags, or paperwork (varies by product)</li></ul>"},{"type":"html","id":"gg2rQVB-Dg8_text","label":"gg2rQVB-Dg8_text","default":"<p>Orders are processed and sent to our fulfillment center within 20 minutes of the order being completed. We can cancel an order at no charge if we are notified within 15 minutes of your order being placed. Please call us at 999-999-999 between 8am-5pm Pacific Standard Time for immediate assistance. Emails will not guarantee order cancellations, as they are answered in the order they are received. Orders cannot be cancelled after this 15 minute window. Preorders and special orders cannot be cancelled as the funds have already been sent to the manufacturer to secure your watch.</p>"},{"type":"html","id":"gg9k220jMWN_text","label":"gg9k220jMWN_text","default":"<p>You must contact us within 15 minutes of placing your order to update this info by emailing contact@gemand.com or calling 999-999--999. Please include your name, order number and the correct address for faster processing</p>"},{"type":"html","id":"ggt0HjHD6i6_text","label":"ggt0HjHD6i6_text","default":"<p>Estimated shipping dates are listed on the preorder product page. We will ship as soon as the item(s) become available and you'll receive a tracking number via email. Ship dates are estimates and subject to change without notice.</p>"}],
+    "blocks": [{"type": "@app"}],
+    "locales": {}
+  }
+{% endschema %}
